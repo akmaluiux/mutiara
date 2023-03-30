@@ -4,18 +4,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 body{
-    background-color: rgb(36, 34, 35);
+    background-color: #4f4f4f;
 }
 
 /*page pertama */
 
 .b1{
     position: absolute;
-    margin-left: 35%;
-    margin-top: 90%;
+    margin-left: 45%;
+    margin-top: 20%;
     width: 6rem;
     height: 2rem;
     font-size: 1.5rem;
@@ -32,52 +34,118 @@ body{
 
 #data{
     width: 16rem;
-    background-color: #ffffff;
+    background-color: #fceea1;
     height: 9rem;
     font-size: 25px;
     font-family: dongle;
-    margin-left: 10%;
+    margin-left: 45%;
     padding: 10px;
     border: 1px solid black;
-    margin-top: 60%;
+    margin-top: 20%;
     border-radius: 10px;
-    border: 2px solid rgb(29, 70, 182);
+    border: 4px solid rgb(0, 0, 0);
+}
+
+.dino{
+    position: absolute;
+    font-size: 3rem;
 }
 
 .next{
-    margin: 1rem 14rem;
+    background-color: #fceea1;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 1rem 55%;
     width: 4rem;
     height: 2rem;
     border-radius: 20px;
-    border: none;
+    font-size: 20px;
+    font-family: dongle;
 }
 
 .tidak{
+    border: 3px solid rgb(0, 0, 0);
     position: absolute;
-    margin: 1.5rem 6rem;
+    background-color: #fceea1;
+    margin: 1.5rem 45%;
     width: 4rem;
     height: 2rem;
     border-radius: 20px;
-    border: none;
+    font-size: 20px;
+    font-family: dongle;
 }
 
 .iya{
-    margin: 1.5rem 11rem;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 1.5rem 55%;
+    background-color: #fceea1;
     width: 4rem;
     height: 2rem;
     border-radius: 20px;
+    font-size: 20px;
+    font-family: dongle;
+}
+
+/* page ketiga */
+.lanjut{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 20%;
+    width: 6rem;
+    background-color: rgb(43, 43, 97);
+    color: #dbdbdb;
+    height: 2rem;
+    font-size: 10pxrem;
     border: none;
+    border-radius: 20px;
+    font-family: nunito;
+}
+
+.th{
+    position: absolute;
+    color: #0c0333;
+    font-family: dongle;
+    font-size: 8rem;
+    -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.39);
 }
 
 
-/* page ketiga */
+/* page keempat */
 .container h2{
     font-family: nunito;
     color: #ffffff;
+    text-align: center;
 }
 
 .container img{
     position: absolute;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.back{
+    position: absolute;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.goon{
+    position: absolute;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.c3{
+    position: absolute;
+    text-align: center;
+    margin-top: 35rem;
+    margin-left: 40%;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: dongle;
 }
 
 
@@ -93,18 +161,78 @@ body{
         font-family: dongle;
     }
 
-    .b1:hover{
-        opacity: 60%;
+
+    /* page kedua */
+
+    #data{
+        width: 16rem;
+        height: 9rem;
+        margin-left: 13%;
+        padding: 10px;
+        margin-top: 70%;
+    }
+
+    .dino{
+        margin-left: 65%;
+        margin-top: -4.5rem;
+    }
+
+    .next{
+        margin: 1rem 15rem;
+        width: 4rem;
+        height: 2rem;
+    }
+
+    .tidak{
+        margin: 1.5rem 6.5rem;
+        width: 4rem;
+        height: 2rem;
+    }
+
+    .iya{
+        margin: 1.5rem 11.5rem;
+        width: 4rem;
+        height: 2rem;
+    }
+
+    /*page ke tiga */
+
+    .lanjut{
+        margin-left: 35%;
+        margin-top: 36rem;
+    }
+
+    .th{
+        margin-left: 25%;
+        margin-top: 7rem;
     }
 
     .container h2{
-        margin-top: 2rem;
-        margin-left: 20%;
+        position: absolute;
+        font-size: 20px;
+        margin-top: 5rem;
+        margin-left: 8%;
     }
 
     .container img{
-        
-        width: 150px;
-        height: 250px;
+        left: 25%;
+        top: 12rem;
+        width: 190px;
+        height: 350px;
+    }
+
+    .back{
+        margin-top: 22rem;
+        margin-left: 12%;
+    }
+
+    .goon{
+        margin-top: 22rem;
+        left: 85%;
+    }
+
+    .c3{
+        margin-top: 35rem;
+        margin-left: 23%;
     }
 }
