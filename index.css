@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Nunito&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(36, 34, 35);
+}
+
+/*page pertama */
+
+.b1{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 90%;
+    width: 6rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 20px;
+    font-family: dongle;
+}
+
+.b1:hover{
+    opacity: 60%;
+}
+
+/* page kedua */
+
+#data{
+    width: 16rem;
+    background-color: #ffffff;
+    height: 9rem;
+    font-size: 25px;
+    font-family: dongle;
+    margin-left: 10%;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 60%;
+    border-radius: 10px;
+    border: 2px solid rgb(29, 70, 182);
+}
+
+.next{
+    margin: 1rem 14rem;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 20px;
+    border: none;
+}
+
+.tidak{
+    position: absolute;
+    margin: 1.5rem 6rem;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 20px;
+    border: none;
+}
+
+.iya{
+    margin: 1.5rem 11rem;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 20px;
+    border: none;
+}
+
+
+/* page ketiga */
+.container h2{
+    font-family: nunito;
+    color: #ffffff;
+}
+
+.container img{
+    position: absolute;
+}
+
+
+@media (max-width: 768px){
+    .b1{
+        margin-left: 35%;
+        margin-top: 90%;
+        width: 6rem;
+        height: 2rem;
+        font-size: 1.5rem;
+        border: none;
+        border-radius: 20px;
+        font-family: dongle;
+    }
+
+    .b1:hover{
+        opacity: 60%;
+    }
+
+    .container h2{
+        margin-top: 2rem;
+        margin-left: 20%;
+    }
+
+    .container img{
+        
+        width: 150px;
+        height: 250px;
+    }
+}
