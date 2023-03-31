@@ -13,7 +13,7 @@ let con2 = document.querySelector(".container2")
 let lanjut = document.querySelector(".lanjut")
 
 var data = [" ","selamat ulang tahun mutiara....", "semoga panjang umur...", "sehat selalu...", "jangan lupa belajar...", "jangan mudah putus asa..." , "semoga kuliahnya dipermudah", "jangan lupa beliin aku cimoll yaa!!!!!"];
-var image = ["mutiara.jpeg", "mutiara1.jpeg", "mutiara2.jpeg", "mutiara3.jpeg", "mutiara4.jpeg", "mutiara5.jpeg", "mutiara6.jpeg"]
+var image = ["mutiara.jpg", "mutiara1.jpg", "mutiara2.jpg", "mutiara3.jpg", "mutiara4.jpg", "mutiara5.jpg", "mutiara6.jpg"]
 let index = 0; 
 img.src = image[index];
 
