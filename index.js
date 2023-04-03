@@ -13,7 +13,7 @@ let con2 = document.querySelector(".container2")
 let lanjut = document.querySelector(".lanjut")
 
 var data = [" ","selamat ulang tahun mutiara....", "semoga panjang umur...", "sehat selalu...", "jangan lupa belajar...", "jangan mudah putus asa..." , "semoga kuliahnya dipermudah", "jangan lupa beliin aku cimoll yaa!!!!!"];
-var image = ["mutiara.jpg", "mutiara1.jpg", "mutiara2.jpg", "mutiara3.jpg", "mutiara4.jpg", "mutiara5.jpg", "mutiara6.jpg"]
+var image = ["mutiara1.jpg", "mutiara2.jpg", "mutiara3.jpg", "mutiara4.jpg", "mutiara5.jpg", "mutiara6.jpg"]
 let index = 0; 
 img.src = image[index];
 
@@ -70,7 +70,7 @@ goon.addEventListener('click', () => {
     index = (index + 1) % image.length;
     img.src = image[index];
 
-    if(index === 6 ){
+    if(index === 5 ){
         goon.style.display = "none";
         back.style.display = "block";
     }
